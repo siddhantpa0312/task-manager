@@ -30,6 +30,7 @@ Custom Task Manager for ISM 3232 Module 10, built with Next.js App Router, React
 ## AI Usage Log
 - Asked AI for test-case ideas mapped to each required feature; adapted them into component tests.
 - Asked AI to review comment quality for why-focused explanations, then rewrote comments in my own words.
+- Asked AI to audit code, ensuring requirements are met.
 
 ## Notes
 
