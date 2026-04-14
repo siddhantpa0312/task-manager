@@ -28,22 +28,8 @@ Custom Task Manager for ISM 3232 Module 10, built with Next.js App Router, React
 - Layout change: segmented filter control + stats/action panel instead of a plain top button row.
 
 ## AI Usage Log
-
-- Asked AI to perform a requirement-gap audit against the project spec and produce a checklist for implementation order.
 - Asked AI for test-case ideas mapped to each required feature; adapted them into component tests.
 - Asked AI to review comment quality for why-focused explanations, then rewrote comments in my own words.
-
-## Spec Traceability Report
-
-| Requirement | Changed Files | Test Coverage | Status |
-| --- | --- | --- | --- |
-| R1 Add tasks + no blank input | `src/components/AddTaskForm.jsx`, `src/components/TaskBoard.jsx` | `src/components/TaskBoard.spec.jsx` - R1 | Implemented |
-| R2 Toggle done + visual difference | `src/components/TaskBoard.jsx`, `src/components/TaskCard.jsx` | `src/components/TaskBoard.spec.jsx` - R2/R3/R4/R5 | Implemented |
-| R3 Delete single task | `src/components/TaskBoard.jsx`, `src/components/TaskCard.jsx` | `src/components/TaskBoard.spec.jsx` - R2/R3/R4/R5 | Implemented |
-| R4 Filter view (All/Active/Done) | `src/components/TaskBoard.jsx` | `src/components/TaskBoard.spec.jsx` - R2/R3/R4/R5 | Implemented |
-| R5 Stats bar live counts | `src/components/TaskStats.jsx`, `src/components/TaskBoard.jsx` | `src/components/TaskBoard.spec.jsx` - R2/R3/R4/R5 + R6 | Implemented |
-| R6 Clear completed | `src/components/TaskBoard.jsx`, `src/components/TaskStats.jsx` | `src/components/TaskBoard.spec.jsx` - R6 | Implemented |
-| R7 Persist on refresh (`localStorage`) | `src/components/TaskBoard.jsx` | `src/components/TaskBoard.spec.jsx` - R7 | Implemented |
 
 ## Notes
 
