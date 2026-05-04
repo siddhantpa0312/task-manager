@@ -1,38 +1,33 @@
-# Project 10: My Task Manager
+# Task Manager
 
-Custom Task Manager for ISM 3232 Module 10, built with Next.js App Router, React, and Tailwind CSS.
+A full-stack task management application built with Next.js, React, and Tailwind CSS.
 
-## Setup Instructions
+## Features
+- Create, complete, and delete tasks
+- Filter tasks by status
+- Stats panel showing task completion progress
+- Dark productivity theme with high-contrast UI
 
-1. Install dependencies:
-   - `npm install`
-2. Start development server:
-   - `npm run dev`
-3. Open:
-   - [http://localhost:3000](http://localhost:3000)
+## Technologies Used
+- Next.js (App Router)
+- React
+- Tailwind CSS
+- TypeScript
+- Vitest (unit testing)
+- ESLint
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Start the development server: `npm run dev`
+4. Open `http://localhost:3000` in your browser
 
 ## Available Scripts
+- `npm run dev` — start local development server
+- `npm run build` — create a production build
+- `npm run lint` — run ESLint
+- `npm run test` — run unit tests
 
-- `npm run dev` - start local dev server
-- `npm run build` - production build
-- `npm run start` - run production build
-- `npm run lint` - run ESLint
-- `npm run test` - run spec-based unit tests
-- `npm run test:watch` - run tests in watch mode
-
-## Design Decisions
-
-- Direction: dark productivity theme with high contrast and compact controls.
-- Palette: slate background with cyan accent for primary actions.
-- Typography and spacing: larger heading hierarchy and card-style grouping for quick scanning.
-- Layout change: segmented filter control + stats/action panel instead of a plain top button row.
-
-## AI Usage Log
-- Asked AI for test-case ideas mapped to each required feature; adapted them into component tests.
-- Asked AI to review comment quality for why-focused explanations, then rewrote comments in my own words.
-- Asked AI to audit code, ensuring requirements are met.
-
-## Notes
-
-- Component files include header comments and key logic comments that explain why each pattern is used.
-- If you see a hydration mismatch mentioning extra attributes on `<html>` (for example `data-processed-*`), test in Incognito or with extensions disabled first. Some browser extensions mutate the DOM before React hydrates and can trigger this warning even when app code is correct.
+## What I Learned
+Building this project deepened my understanding of the Next.js App Router, component-based architecture in React, and writing testable UI logic. I also practiced writing meaningful code comments and organizing a project with a real-world folder structure.
